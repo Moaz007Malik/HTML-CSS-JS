@@ -1,0 +1,175 @@
+/* 	
+	Student Name: Farheen Zia
+	File Name: style.css 
+	Date: 09/28/2023
+*/ 
+/* Include a blank line after comment*/
+
+/* CSS Reset */
+body {
+    margin: 0;
+    padding: 0;
+	border: 0;
+}
+ 
+ header {
+    margin: 0;
+    padding: 0;
+	border: 0;
+}
+nav {
+    margin: 0;
+    padding: 0;
+	border: 0;
+}
+main {
+    margin: 0;
+    padding: 0;
+	border: 0;
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+	border: 0;
+}
+img {
+    margin: 0;
+    padding: 0;
+	border: 0;
+}
+h1 {
+    margin: 0;
+    padding: 0;
+	border: 0;
+}
+h3  {
+    margin: 0;
+    padding: 0;
+	border: 0;
+}
+
+/* Include a blank line after comment*/
+
+
+
+/* Style rule for body and image*/
+body {
+    background-color: #e3eaf8;
+}
+img{
+    display: block;
+	max-width: 100%;
+ 
+  	
+}
+/* Include a blank line */
+
+/* Style rule for header content*/
+h1 { 
+   	color: #101a2d;
+    text-align: center;
+    font-size: 3em;
+	font-family: Georgia,Times,sans-serif;
+	padding: 3%;
+	color: #101a2d;
+	    
+}
+/* Include a blank line */
+
+
+/* Style rules for navigation area */
+nav {
+    background-color: #1d396d;
+}
+
+/* Style the list items (menu items) */
+nav ul {
+    list-style-type: none; /* list style type */
+	margin: 0;
+	text-align: center;
+}
+
+nav li {
+	display: inline-block;
+	font-size: 1.5em;
+	font-family: Verdana, Arial, sans-serif;
+	font-weight: bold;
+    }
+
+/* Style the links (anchor tags) */
+nav li a {
+    display: block;
+	color: #e3eaf8;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	padding-right: 2em;
+    padding-left: 2em;
+	text-decoration: none;
+}
+/* Include a blank line */
+
+/* Style Rules for main content */
+main {
+    padding: 2%;
+    font-family: Geneva, Arial, sans-serif;
+    overflow: auto;
+}
+
+
+main p {
+    font-size: 1.25em;
+}
+
+main h3 {
+    padding-top: 2%;
+    font-size: 2em;
+}
+
+#image {
+    width: 45%;
+    float: left;
+	padding: 1%;
+}
+
+
+#group {
+    width: 45%;
+    float: right;
+	
+}
+
+.external {
+    color: #1d396d;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+/* Style rules for footer content */
+footer {
+    text-align: center;
+    font-size: 0.85em;
+    background-color: #1d396d;
+    color: #e3eaf8;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-right: 0%;
+    padding-left: 0%;
+}
+
+footer p {
+    color: #e3eaf8;
+    text-decoration: none;
+}
+
+/* Include a blank line between each style rule */
+
+/* Reset default margin and padding for list elements */
+ul {
+    list-style: none;
+    margin: 0;
+    /* padding: 0; */
+}
+

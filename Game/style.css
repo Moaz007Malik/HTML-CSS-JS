@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.game {
+  position: relative;
+  width: 2000px;
+  height: 600px;
+  background: #5c94fc;
+  overflow-x: hidden;
+}
+
+.background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url('https://i.imgur.com/CzGjc9g.png') repeat-x;
+  z-index: 0;
+}
+
+#flag {
+  position: absolute;
+  bottom: 100px;
+  left: 1800px;
+  width: 50px;
+  height: 200px;
+  z-index: 2;
+}
+
+#mario {
+  position: absolute;
+  width: 50px;
+  height: 64px;
+  left: 100px;
+  bottom: 100px;
+  z-index: 10;
+}
+
+.ground {
+  position: absolute;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  background: url('https://i.imgur.com/YyU1ZDu.png') repeat-x;
+  z-index: 5;
+}
+
+.platform {
+  position: absolute;
+  bottom: 200px;
+  width: 100px;
+  height: 20px;
+  background: url('https://i.imgur.com/LrW0u0X.png');
+  z-index: 5;
+}
+
+.enemy {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  bottom: 100px;
+  z-index: 5;
+}
+
+.obstacle {
+  position: absolute;
+  bottom: 100px;
+  width: 40px;
+  height: 40px;
+  background: brown;
+  z-index: 5;
+}
